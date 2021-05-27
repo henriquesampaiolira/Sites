@@ -1,0 +1,100 @@
+h1, body{
+    font-family: sans-serif;
+    margin: 0;
+}
+h1{
+    background-color: rgba(122, 12, 12, 0.856);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    font-size: 2.3em;
+    color:white;
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+h2{
+    font-family: sans-serif;
+    clear:both;
+}
+p{
+    font-family: serif;
+}
+img{
+    width: 300px;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    clear:right;
+}
+aside{
+    background-color: rgb(73, 41, 114);
+    color:white;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    clear: right;
+    box-sizing: border-box;
+}
+ul, aside a{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.icons a{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-indent:-9999px;
+}
+.icons li{
+    display: inline-block;
+}
+.iconli{
+    background-image: url("../images/icon-linkedin.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.icongh{
+    background-image: url("../images/icon-github.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+blockquote{
+    background-color: #ddd;
+    padding: 10px;
+    border: 10px solid #c2cacc;
+    width: 200px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+blockquote cite{
+    font-size: 12px;
+}
+main{
+    float: left;
+    text-align: justify;
+    width: 85%;
+    box-sizing: border-box;
+
+}
+section{
+    box-sizing: border-box;    
+}
+#block1{
+    float: right;
+    margin-left: 20px;
+}
+#block2{
+    float:left;
+    margin-right: 20px;
+}

@@ -3,33 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="./styles/normalize.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <section>
-        
-        <div>
-            <img src="foto.jpg">
-            <div>
-                <h2>João da Silva</h2>
-                <ul>
-                    <li>home</li>
-                    <li>portfolio</li>
-                    <li>sobre mim</li>
-                    <li>blog</li>
-                    <li>contato</li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
-        <h1>SOBRE MIM</h1>
-        <article>
-            
+<body>      
+    <main>
+        <h1>Sobre mim</h1> 
+        <section>           
             <p>Moro em São Paulo mas atendo clientes do mundo todo. Sou conhecido por fazer produtos de <em>qualidade</em>, <em>durabilidade</em>
                 e que <em>agregam valor</em> para meus clientes.</p>
             
@@ -38,22 +19,23 @@
                 sem descuidar da qualidade de código.</p>
             
             <h2>Como trabalho</h2>
-            <div >
+            <blockquote id="block1">
                 <p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz. 
                 Recomendo sem dúvidas!</p>
-                <p>José Souza, Fiat</p>
+                <cite>José Souza, Fiat</cite>
+            </blockquote>
                 <p>Satisfazer meus clientes é prioridade. Para isso, garanto um processo de desenvolvimento altamente interativo, 
                 baseado em feedback contínuo. Não trabalho com escopo fechado: o cliente é que decide quando o produto está pronto.</p>
             
                 <p>Também não trabalho com prazos fechados: qualidade é importante demais para ser sacrificada.</p>
-            </div>
+            
             <h2>Experiência</h2>
-            <div>
+            <blockquote id="block2">
                 <p>João domina as tecnologias como ninguém. Eu apresentava um problema, 
                 ele tinha na ponta da língua a solução mais adequada com as tecnologias mais recentes.</p>
             
-                <p>Manoel Santos, Petrobrás</p>
-            </div>
+                <cite>Manoel Santos, Petrobrás</cite>
+            </blockquote>
             <p>Já desenvolvi projetos para grandes empresas como BMW, UOL e IBM. Neles, 
                 o foco principal era entregar uma experiência imersiva e 
                 impactante para o usuário final sem descuidar do desempenho e da acessibilidade da página.</p>
@@ -65,7 +47,25 @@
             <h2>Comunidade</h2>
             <p>Procuro repassar meu conhecimento para a comunidade. 
                 Para isso, já dei diversas palestras e mantenho um blog.</p>
-        </article>
-    </section>
+        </section>
+    </main>  
+    <img src="/Sites/SiteBiografiaTest/images/foto.jpg">
+    <aside>
+        <h2>João da Silva</h2>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">sobre mim</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contato</a></li>
+            </ul>
+        </nav>
+        <ul class="icons">
+            <li><a class="icongh" href="https://github.com/henriquesampaiolira">GitHub</a></li>
+            <li><a class="iconli" href="#">LinkedIn</a></li>
+        </ul>
+    </aside> 
+ 
 </body>
 </html>
