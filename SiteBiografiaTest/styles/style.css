@@ -2,10 +2,13 @@ h1, body{
     font-family: sans-serif;
     margin: 0;
 }
+body{
+
+}
 h1{
     background-color: rgba(122, 12, 12, 0.856);
     text-align: center;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 10px solid black;
     border-right: 10px solid black;
@@ -15,12 +18,14 @@ h1{
     margin-bottom: 30px;
     text-transform: uppercase;
 }
-h2{
+.h2{
     font-family: sans-serif;
     clear:both;
+    margin-top: 125px;
 }
 p{
     font-family: serif;
+    font-size: 20px;
 }
 img{
     width: 300px;
@@ -29,9 +34,9 @@ img{
     box-sizing: border-box;
     float: right;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    clear:right;
+    top: 0;
+    right: 0;
+    
 }
 aside{
     background-color: rgb(73, 41, 114);
@@ -42,6 +47,12 @@ aside{
     float: right;
     clear: right;
     box-sizing: border-box;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+
 }
 ul, aside a{
     color:white;
@@ -83,12 +94,13 @@ blockquote cite{
 main{
     float: left;
     text-align: justify;
-    width: 85%;
     box-sizing: border-box;
-
+    width: 85%;
 }
 section{
     box-sizing: border-box;    
+    margin-left: 200px;
+    margin-right: 300px;
 }
 #block1{
     float: right;
@@ -97,4 +109,13 @@ section{
 #block2{
     float:left;
     margin-right: 20px;
+}
+footer{
+    clear:both;
+    position: fixed;
+    bottom: 0px;
+    background-color:black;
+    padding: 10px;
+    width: 100%;
+    color: white;
 }
