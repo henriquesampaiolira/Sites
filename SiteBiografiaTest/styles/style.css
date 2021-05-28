@@ -1,31 +1,63 @@
-h1, body{
-    font-family: sans-serif;
-    margin: 0;
-}
 body{
+    /* background-image: linear-gradient(50deg,rgb(14, 43, 207), rgb(126, 81, 81),rgb(14, 43, 207)); */
+    background: url(../images/Protruding-Squares.svg);
+}    
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
 
 }
+section{
+    background: url(../images/Large-Triangles.svg);
+    border-radius: 10px;
+    box-sizing: border-box;    
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px black;
+}
 h1{
-    background-color: rgba(122, 12, 12, 0.856);
+    background: url(../images/Large-Triangles.svg);
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 45px;
     border-bottom: 10px solid black;
     border-right: 10px solid black;
     font-size: 2.3em;
     color:white;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 0px 0px 5px black;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
-.h2{
-    font-family: sans-serif;
+h2{
+    background-color: rgb(16, 129, 163);
+    color:white;
+    text-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 10px black;
+    display: inline-block;
+    border-radius: 10px 0px 10px 0px ;
+    font-size: 26px;
     clear:both;
-    margin-top: 125px;
+    padding: 10px;
+    margin: 10px 10px;
 }
 p{
-    font-family: serif;
+    color:white;
+    text-indent: 2em;
+    padding: 10px;
     font-size: 20px;
+    font-family: garamond, serif;
+    text-shadow: 1px 1px 3px black;
+}
+.pf{
+    padding-bottom: 100px;
+}
+em{
+    font-style: italic;
+    font-size: 21px;
+}
+strong{
+    font-weight: bold;
 }
 img{
     width: 300px;
@@ -80,42 +112,19 @@ ul, aside a{
     background-size: 40px;
     background-repeat: no-repeat;
 }
-blockquote{
-    background-color: #ddd;
-    padding: 10px;
-    border: 10px solid #c2cacc;
-    width: 200px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-blockquote cite{
-    font-size: 12px;
-}
 main{
     float: left;
     text-align: justify;
     box-sizing: border-box;
     width: 85%;
 }
-section{
-    box-sizing: border-box;    
-    margin-left: 200px;
-    margin-right: 300px;
-}
-#block1{
-    float: right;
-    margin-left: 20px;
-}
-#block2{
-    float:left;
-    margin-right: 20px;
-}
+
 footer{
     clear:both;
     position: fixed;
     bottom: 0px;
-    background-color:black;
+    background-color:rgba(16, 129, 163, .3);
     padding: 10px;
     width: 100%;
-    color: white;
+    color: black;
 }
