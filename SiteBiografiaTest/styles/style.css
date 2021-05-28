@@ -1,33 +1,116 @@
 body{
     /* background-image: linear-gradient(50deg,rgb(14, 43, 207), rgb(126, 81, 81),rgb(14, 43, 207)); */
-    background: url(../images/Protruding-Squares.svg);
+    background: url(../images/Protruding-Squares.svg)
 }    
 h1, h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p{
 
-}
 section{
     background: url(../images/Large-Triangles.svg);
     border-radius: 10px;
     box-sizing: border-box;    
-    margin-left: 200px;
-    margin-right: 300px;
+    margin-left: 300px;
+    margin-right: 300px ;
     padding: 20px;
     box-shadow: 0px 0px 15px black;
 }
-h1{
+header{
     background: url(../images/Large-Triangles.svg);
+    height: 290px;
+    margin-bottom: 80px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 15px black;
+ 
+}
+header ol{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translateX(50%);
     text-align: center;
-    padding: 45px;
-    border-bottom: 10px solid black;
-    border-right: 10px solid black;
-    font-size: 2.3em;
-    color:white;
-    text-shadow: 0px 0px 5px black;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+
+}
+header li{
+    padding-bottom: 35px;
+}
+.nome{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 2em; 
+    color: white;
+    text-shadow: 3px 3px black;
+
+}
+.prof{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+header ul li{
+    padding: 0px;
+    color: rgba(0, 0, 0, .2);
+    font-family: cursive;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+
+}
+.html5{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    transform: rotate(-25deg) translateZ(50px) scale(1.1); 
+    font-size: 24px;
+}
+.css3{
+    position: absolute;
+    top: 90px;
+    left: 290px;
+    font-size: 24px;
+    transform: rotate(15deg) translateZ(50px) scale(1.2); 
+}
+.js{
+    position: absolute;
+    top: 190px;
+    right: 120px;
+    font-size: 24px;
+    transform: rotate(-20deg) translateZ(50px) scale(1.2); 
+}
+.design{
+    position: absolute;
+    top: 190px;
+    left: 130px;
+    font-size: 24px;
+    transform: rotate(-30deg) translateZ(50px) scale(.9); 
+}
+.codlim{
+    position: absolute;
+    top: 50px;
+    right: 350px;
+    font-size: 24px;
+    transform: rotate(30deg) translateZ(50px) scale(.9); 
+}
+.agil{
+    position: absolute;
+    top: 75px;
+    right: 150px;
+    font-size: 24px;
+    transform: rotate(45deg) translateZ(50px) scale(.6); 
+}
+.resp{
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    font-size: 24px;
+    transform: rotate(10deg) translateZ(50px) scale(.6); 
+}
+.efic{
+    position: absolute;
+    top: 190px;
+    right: 300px;
+    font-size: 24px;
+    transform: rotate(-40deg) translateZ(50px) scale(.85); 
+
 }
 h2{
     background-color: rgb(16, 129, 163);
@@ -59,34 +142,17 @@ em{
 strong{
     font-weight: bold;
 }
-img{
-    width: 300px;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
-    box-sizing: border-box;
-    float: right;
+header img{
+    width: 150px;
     position: absolute;
-    top: 0;
-    right: 0;
-    
+    right: 50%;
+    top: 30%; 
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
 }
-aside{
-    background-color: rgb(73, 41, 114);
-    color:white;
-    width: 15%;
-    text-align: center;
-    padding: 10px;
-    float: right;
-    clear: right;
-    box-sizing: border-box;
-    position: absolute;
-    top: 300px;
-    right: 0px;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
 
-}
-ul, aside a{
+nav ul, aside a{
     color:white;
     text-decoration: none;
     list-style: none;
@@ -113,18 +179,19 @@ ul, aside a{
     background-repeat: no-repeat;
 }
 main{
-    float: left;
     text-align: justify;
     box-sizing: border-box;
-    width: 85%;
 }
 
 footer{
-    clear:both;
-    position: fixed;
+    position: relative;
     bottom: 0px;
-    background-color:rgba(16, 129, 163, .3);
+    background-color:black;
     padding: 10px;
     width: 100%;
-    color: black;
+    color: white;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline-block;
 }
