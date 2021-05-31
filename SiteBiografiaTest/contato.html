@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/reset.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>      
+        <header>
+            <img src="./images/foto2.jpg" alt="Foto de perfil">
+            <ol>
+                <li class="nome">Henrique Sampaio Lira</li>
+                <li class="prof" >Web Designer</li>
+            </ol>
+            <ul>
+                <li class="html5">HTML5</li>
+                <li class="css3">CSS3</li>
+                <li class="js">JavaScript</li>
+                <li class="design">Design</li>
+                <li class="codlim">Código limpo</li>
+                <li class="agil">Agilidade</li>
+                <li class="resp">Responsividade</li>
+                <li class="efic">Eficiência</li>
+            </ul>
+        </header>
+    <main>
+        <section>
+            <form>
+                <label>
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                            Nome: 
+                            <input type="text" placeholder="Digite seu nome..." name="nome" autofocus required>
+                        </label>
+                        <label>
+                            Email:
+                            <input class="sepInp" type="email" placeholder="Digite seu email..." name="email">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Assunto</legend>
+                        <label>
+                            <input  type="radio" name="op" value="consult" checked>
+                            Consultoria
+                        </label>
+                        <label>
+                            <input  type="radio" name="op" value="outro">
+                            Informações
+                        </label>
+                        <label>
+                            <input  type="radio" name="op" value="texto">
+                            Outro
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label class="separa" for="msg">Mensagem:</label>
+                        <textarea id="msg" cools="30" rows="6" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="./index.html">sobre mim</a></li>
+                <li><a href="./contato.html">contato</a></li>
+            </ul>
+        </nav>
+        <span>&copy; Henrique Sampaio;</span>
+        <ul class="icons">
+            <li><a class="icongh" href="https://github.com/henriquesampaiolira">GitHub</a></li>
+            <li><a class="iconli" href="https://www.linkedin.com/in/henrique-sampaio-lira/">LinkedIn</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
